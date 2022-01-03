@@ -1,15 +1,14 @@
-# Basic Sample Hardhat Project
+# Fullstack NFT Marketplace (MATIC)
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This project demonstrates a functional understanding of the following technologies:
 
-Try running some of the following tasks:
+-   MetaMask
+-   IPFS
+-   ethers.js
+-   Hardhat
+-   NextJS
+-   Tailwind CSS
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+The networks are configured to both the MATIC Mumbai testnet, as well as mainnet, with Alchemy as the RPC provider. However, as I strongly advocate against art theft in the NFT space, I will not be deploying to mainnet. This is to provent the trade of the free stock images I use for testing purposes.
+
+This is not an attempt at a large scale marketplace the likes of OpenSea and Rarible, so functionality is kept to just the essentials for transactions, minting, and display.
