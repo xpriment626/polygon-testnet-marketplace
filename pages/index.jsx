@@ -109,7 +109,7 @@ export default function Home() {
                                     {nft.price} MATIC
                                 </p>
                                 <button
-                                    className="w-full bg-pink-500 text-white font-bold py-2 px-12 rounded hover:bg-pink-700"
+                                    className="w-full bg-green-300 text-white font-bold py-2 px-12 rounded hover:bg-green-600"
                                     onClick={() => buyNft(nft)}
                                 >
                                     Buy
